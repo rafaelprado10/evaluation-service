@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: evaluation-service-config
+  namespace: evaluation-service
+data:
+  PORT: "8004"
+  REDIS_URL: "redis://172.26.63.60:6379"
+  FLAG_SERVICE_URL: "http://flag-service.flag-service.svc.cluster.local:8002"
+  TARGETING_SERVICE_URL: "http://targeting-service.targeting-service.svc.cluster.local:8003"
+  SQS_URL: "https://sqs.us-east-1.amazonaws.com/xxxxxxxx/evaluation-queue"
+  AWS_REGION: "us-east-1"
+  ACCESS_KEY_ID: "xxxxxxxxxx"
+  SECRET_ACCESS_KEY: "xxxxxxxxxxxxxxxx"
