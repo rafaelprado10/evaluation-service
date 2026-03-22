@@ -8,7 +8,7 @@ data:
   REDIS_URL: "redis://platform-dev-redis-001.yw5ocs.0001.use1.cache.amazonaws.com:6379"
   FLAG_SERVICE_URL: "http://flag-service.flag-service.svc.cluster.local:8002"
   TARGETING_SERVICE_URL: "http://targeting-service.targeting-service.svc.cluster.local:8003"
-  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/xxxxxxxx/evaluation-queue"
+  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/434473100946/evaluation-queue"
   AWS_REGION: "us-east-1"
   AWS_ACCESS_KEY_ID: "xxxxxxxxxx"
   AWS_SECRET_ACCESS_KEY: "xxxxxxxxxxxxxxxx"
